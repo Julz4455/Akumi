@@ -1,0 +1,35 @@
+.social {
+  color: var(--social-primary);
+  font-size: 2rem;
+  transition: all 500ms;
+  margin-left: 1.5rem;
+}
+.social:hover {
+  font-size: 1.75rem;
+  line-height: 1;
+  transition: all 500ms;
+}
+.discord:hover {
+  color: #7289da;
+}
+.reddit:hover {
+  color: #ff5700;
+}
+.github:hover {
+  color: var(--github);
+}
+.twitter:hover {
+  color: #1da1f2;
+}
+.insta:hover {
+  color: #fcaf45;
+}
+.npm:hover {
+  color: #cc3534;
+}
+.facebook:hover {
+  color: #4267b2;
+}
+.spotify:hover {
+  color: #1db954;
+}

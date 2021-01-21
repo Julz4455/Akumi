@@ -1,0 +1,13 @@
+extends layout
+
+block content
+  h1= error.status
+  if is404
+    h2
+      a(href='/' class='type-404')
+    script(src='/js/404_type.js')
+  else
+    h2
+      a(href='/')= error.message
+  if isDebug
+    pre #{error.stack}

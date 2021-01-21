@@ -1,0 +1,27 @@
+doctype html
+html
+  head
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    meta(http-equiv="X-UA-Compatible", content="ie=edge")
+
+    title= title
+
+    meta(property="og:type", content="website")
+    meta(property="og:title", content=title)
+    meta(property="og:description", content="please shut the fuck up :)")
+    meta(property="og:url", content="https://constanze.live")
+    meta(property="og:image", content="/images/og_img.jpeg")
+    meta(property="twitter:card", content="summary_large_image")
+    meta(name="theme-color", content="#8074d2")
+
+    link(rel='stylesheet', href='https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css')
+    link(rel='stylesheet', href='/stylesheets/fonts.css')
+    link(rel='stylesheet', href='/stylesheets/style.css')
+    link(rel='stylesheet', href='/stylesheets/brands.css')
+    link(rel='stylesheet', href='https://use.fontawesome.com/releases/v5.7.2/css/all.css')
+    link(type='application/json+oembed' href='/oEmbed.json')
+    
+    script(src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11/lib/typed.min.js")
+    script(src="https://cdnjs.cloudflare.com/ajax/libs/color-thief/2.3.0/color-thief.umd.js")
+  body
+    block content
